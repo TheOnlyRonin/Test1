@@ -1,4 +1,3 @@
-gfkdgfljkD.L
 pluginManagement {
     repositories {
         google {
