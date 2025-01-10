@@ -1,3 +1,6 @@
+
+
+ytfhasdfglkhkjv,chg
 pluginManagement {
     repositories {
         google {
