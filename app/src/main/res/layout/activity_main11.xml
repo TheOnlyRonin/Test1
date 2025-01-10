@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity11">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:stretchColumns="*"
+        android:layout_marginTop="80dp"
+        android:padding="5dp">
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android Calculator"
+                android:layout_span="4"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:hint="null"
+                android:inputType="number"
+                android:layout_span="4"
+                android:layout_gravity="right"
+                android:textSize="25dp"
+                android:id="@+id/result"
+                />
+
+
+        </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="CE"
+            android:layout_margin="2dp"
+            />
+        <Button
+            android:text="C"
+            android:layout_margin="2dp"
+            />
+
+        <Button
+            android:text="Delete"
+            android:layout_margin="2dp"
+            android:layout_span="2"
+            />
+
+
+
+    </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="7"
+                android:layout_margin="2dp"
+                />
+            <Button
+                android:text="8"
+                android:layout_margin="2dp"
+                />
+
+            <Button
+                android:text="9"
+                android:layout_margin="2dp"
+                />
+
+            <Button
+                android:text="+"
+                android:layout_margin="2dp"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="4"
+                android:layout_margin="2dp"
+                />
+            <Button
+                android:text="5"
+                android:layout_margin="2dp"
+                />
+
+            <Button
+                android:text="6"
+                android:layout_margin="2dp"
+                />
+
+            <Button
+                android:text="-"
+                android:layout_margin="2dp"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="1"
+                android:layout_margin="2dp"
+                />
+            <Button
+                android:text="2"
+                android:layout_margin="2dp"
+                />
+
+            <Button
+                android:text="3"
+                android:layout_margin="2dp"
+                />
+
+            <Button
+                android:text="*"
+                android:layout_margin="2dp"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="0"
+                android:layout_margin="2dp"
+                />
+            <Button
+                android:text="."
+                android:layout_margin="2dp"
+                />
+
+            <Button
+                android:text="="
+                android:layout_margin="2dp"
+                />
+
+            <Button
+                android:text="/"
+                android:layout_margin="2dp"
+                />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>
